@@ -3,7 +3,7 @@
 BASEDIR=`dirname "$0"` 
 FULLPATH=`cd "$BASEDIR"; pwd`
 
-#git pull
+git pull
 
 mkdir -p $FULLPATH/ubuntu
 cd $FULLPATH/ubuntu
@@ -30,7 +30,7 @@ if [ "$COUNT1" != "$COUNT2" ]; then
     cd $FULLPATH
 
     GITBRANCH=`git rev-parse --abbrev-ref HEAD`
-    
+
     git add *
     git commit -a -m 'update'
     git push origin $GITBRANCH
