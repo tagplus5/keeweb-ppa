@@ -6,5 +6,5 @@
 sudo wget -O - https://tagplus5.github.io/keeweb-ppa/ubuntu/gpg.key | sudo apt-key add -
 ```
 ```
-sudo wget -O /etc/apt/sources.list.d/vscode.list https://tagplus5.github.io/keeweb-ppa/ubuntu/vscode.list
+sudo wget -O /etc/apt/sources.list.d/keeweb.list https://tagplus5.github.io/keeweb-ppa/ubuntu/keeweb.list
 ```
