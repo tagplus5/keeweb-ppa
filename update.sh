@@ -2,6 +2,7 @@
 
 BASEDIR=`dirname "$0"` 
 FULLPATH=`cd "$BASEDIR"; pwd`
+cd $FULLPATH
 
 git pull
 
@@ -27,6 +28,8 @@ if [ "$COUNT1" != "$COUNT2" ]; then
     gpg --yes --clearsign --digest-algo SHA512 -o InRelease Release
     gpg --yes -abs --digest-algo SHA512 -o Release.gpg Release
     
+    cd $FULLPATH
+
     GITBRANCH=`git rev-parse --abbrev-ref HEAD`
 
     git add *
