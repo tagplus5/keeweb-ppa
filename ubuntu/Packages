@@ -320,3 +320,37 @@ Homepage: https://keeweb.info
 Description: KeeWeb
  Free cross-platform password manager compatible with KeePass
 
+Package: keeweb-desktop
+Version: 1.5.6-1
+Architecture: amd64
+Maintainer: Antelle <antelle.net@gmail.com>
+Installed-Size: 126452
+Depends: libappindicator1, libgconf2-4
+Filename: ./KeeWeb-1.5.6.linux.x64.deb
+Size: 49125458
+MD5sum: b64c2e4e1096800e41ef38d21fadf4b2
+SHA1: dd50447fbd89e41bd9d772a766f2f52de448e60e
+SHA256: dd2d0edd25c9c5ee416450c166d7d5eb27696fc11bcac6caab314e371a532aeb
+Section: misc
+Priority: optional
+Homepage: https://keeweb.info
+Description: KeeWeb
+ Free cross-platform password manager compatible with KeePass
+
+Package: keeweb-desktop
+Version: 1.5.6-1
+Architecture: i386
+Maintainer: Antelle <antelle.net@gmail.com>
+Installed-Size: 131615
+Depends: libappindicator1, libgconf2-4
+Filename: ./KeeWeb-1.5.6.linux.ia32.deb
+Size: 50477406
+MD5sum: 67f877e85e3b1e04f54de0134a8fc39f
+SHA1: b0f6a896c86cb83dfc0636a4e572e784385eb4cd
+SHA256: 19e7119f1262ea5cb3199d05c372e469b47206e9279313e9081608228fb5961b
+Section: misc
+Priority: optional
+Homepage: https://keeweb.info
+Description: KeeWeb
+ Free cross-platform password manager compatible with KeePass
+
