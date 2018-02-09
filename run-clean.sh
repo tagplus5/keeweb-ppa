@@ -28,4 +28,15 @@ function cleanRepo() {
   tagplus5/ubuntu-ppa rm -rf app.git
 }
 
-cleanRepo
+function newGit() {
+  docker run --rm \
+  -v $FULLPATH/root:/root \
+  -v $FULLPATH:/app \
+  tagplus5/ubuntu-ppa bash -c "rm -rf .git && \
+    git clone git@github.com:tagplus5/keeweb-ppa.git app.git && \
+    mv app.git/.git /app/.git && \
+    rm -rf app.git"
+}
+
+#cleanRepo
+newGit
