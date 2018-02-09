@@ -1,3 +1,5 @@
 .gnupg
 .ssh
 .gitconfig
+run.sh
+rm.sh
