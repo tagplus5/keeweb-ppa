@@ -38,5 +38,5 @@ function newGit() {
     rm -rf app.git"
 }
 
-#cleanRepo
+cleanRepo
 newGit
