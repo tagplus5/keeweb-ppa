@@ -8,7 +8,7 @@ function pull() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa bash pull.sh
+  tagplus5/ubuntu-ppa git pull
 }
 
 function checkVersion() {
@@ -26,14 +26,19 @@ function commit() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa bash commit.sh
+  tagplus5/ubuntu-ppa git add *
+
+  docker run --rm \
+  -v $FULLPATH/root:/root \
+  -v $FULLPATH:/app \
+  tagplus5/ubuntu-ppa git commit -a -m 'update'
 }
 
 function push() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa bash push.sh
+  tagplus5/ubuntu-ppa git push origin master
 }
 
 pull
@@ -45,5 +50,5 @@ if [ $NEWVERSION = 1 ]; then
   commit
   push
 else
-  echo "not update";
+  echo "no updates";
 fi

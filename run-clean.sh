@@ -16,7 +16,7 @@ function cleanRepo() {
 
   docker run --rm \
   -v $FULLPATH/app.git:/app \
-  tagplus5/ubuntu-ppa git reflog expire --expire=now --all && git gc --prune=now --aggressive
+  tagplus5/ubuntu-ppa bash -c "git reflog expire --expire=now --all && git gc --prune=now --aggressive"
 
   docker run --rm \
   -v $FULLPATH/root:/root \

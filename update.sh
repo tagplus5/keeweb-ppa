@@ -15,10 +15,10 @@ while read -r url; do
     wget -q -N https://github.com$url
 done <<< "$LINKS"
 
+COUNT2=`ls -1 | wc -l`
+
 ls -F *x64.deb | head -n -5 | xargs rm 2> /dev/null
 ls -F *ia32.deb | head -n -5 | xargs rm 2> /dev/null
-
-COUNT2=`ls -1 | wc -l`
 
 if [ "$COUNT1" != "$COUNT2" ]; then    
     echo 1
