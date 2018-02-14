@@ -8,7 +8,7 @@ function pull() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa git pull
+  tagplus5/ubuntu-ppa git pull -q
 }
 
 function checkVersion() {
@@ -26,7 +26,7 @@ function commit() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa git add *
+  tagplus5/ubuntu-ppa git add --all
 
   docker run --rm \
   -v $FULLPATH/root:/root \
