@@ -38,15 +38,15 @@ function push() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa git push origin master
+  tagplus5/ubuntu-ppa git push -q origin master
 }
 
 pull
 
 checkVersion
 
-if [ $NEWVERSION = 1 ]; then
+#if [ $NEWVERSION = 1 ]; then
   updatePPA
   commit
   push
-fi
+#fi
