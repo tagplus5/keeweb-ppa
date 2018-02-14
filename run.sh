@@ -45,8 +45,8 @@ pull
 
 checkVersion
 
-#if [ $NEWVERSION = 1 ]; then
+if [ $NEWVERSION = 1 ]; then
   updatePPA
   commit
   push
-#fi
+fi
