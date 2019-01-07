@@ -1,38 +1,4 @@
 Package: keeweb-desktop
-Version: 1.5.6-1
-Architecture: amd64
-Maintainer: Antelle <antelle.net@gmail.com>
-Installed-Size: 126452
-Depends: libappindicator1, libgconf2-4
-Filename: ./KeeWeb-1.5.6.linux.x64.deb
-Size: 49125458
-MD5sum: b64c2e4e1096800e41ef38d21fadf4b2
-SHA1: dd50447fbd89e41bd9d772a766f2f52de448e60e
-SHA256: dd2d0edd25c9c5ee416450c166d7d5eb27696fc11bcac6caab314e371a532aeb
-Section: misc
-Priority: optional
-Homepage: https://keeweb.info
-Description: KeeWeb
- Free cross-platform password manager compatible with KeePass
-
-Package: keeweb-desktop
-Version: 1.5.6-1
-Architecture: i386
-Maintainer: Antelle <antelle.net@gmail.com>
-Installed-Size: 131615
-Depends: libappindicator1, libgconf2-4
-Filename: ./KeeWeb-1.5.6.linux.ia32.deb
-Size: 50477406
-MD5sum: 67f877e85e3b1e04f54de0134a8fc39f
-SHA1: b0f6a896c86cb83dfc0636a4e572e784385eb4cd
-SHA256: 19e7119f1262ea5cb3199d05c372e469b47206e9279313e9081608228fb5961b
-Section: misc
-Priority: optional
-Homepage: https://keeweb.info
-Description: KeeWeb
- Free cross-platform password manager compatible with KeePass
-
-Package: keeweb-desktop
 Version: 1.6.0-1
 Architecture: i386
 Maintainer: Antelle <antelle.net@gmail.com>
@@ -68,23 +34,6 @@ Description: KeeWeb
 
 Package: keeweb-desktop
 Version: 1.6.1-1
-Architecture: amd64
-Maintainer: Antelle <antelle.net@gmail.com>
-Installed-Size: 132414
-Depends: libappindicator1, libgconf2-4
-Filename: ./KeeWeb-1.6.1.linux.x64.deb
-Size: 51608840
-MD5sum: 8e273e783134ba729b8c5df3d1dd3789
-SHA1: 2176d689e257bca77a5fe4f15a17a29c31b25d1b
-SHA256: 382e7f0db85bf72f30aa45b2ef205272ddb702ca28b68b87fe8fb76e2220cb11
-Section: misc
-Priority: optional
-Homepage: https://keeweb.info
-Description: KeeWeb
- Free cross-platform password manager compatible with KeePass
-
-Package: keeweb-desktop
-Version: 1.6.1-1
 Architecture: i386
 Maintainer: Antelle <antelle.net@gmail.com>
 Installed-Size: 136240
@@ -94,6 +43,23 @@ Size: 52649432
 MD5sum: fbe1a14c792fdec8f418709ea559c635
 SHA1: fb4db1b8fd23a70f6fc7df30534452847f94b728
 SHA256: a193d2aae3a0b42f07bd93a148480f0e2dc1f09c8fa5785d595b2d62aa228bbd
+Section: misc
+Priority: optional
+Homepage: https://keeweb.info
+Description: KeeWeb
+ Free cross-platform password manager compatible with KeePass
+
+Package: keeweb-desktop
+Version: 1.6.1-1
+Architecture: amd64
+Maintainer: Antelle <antelle.net@gmail.com>
+Installed-Size: 132414
+Depends: libappindicator1, libgconf2-4
+Filename: ./KeeWeb-1.6.1.linux.x64.deb
+Size: 51608840
+MD5sum: 8e273e783134ba729b8c5df3d1dd3789
+SHA1: 2176d689e257bca77a5fe4f15a17a29c31b25d1b
+SHA256: 382e7f0db85bf72f30aa45b2ef205272ddb702ca28b68b87fe8fb76e2220cb11
 Section: misc
 Priority: optional
 Homepage: https://keeweb.info
@@ -162,6 +128,40 @@ Size: 51609370
 MD5sum: 2d3bd08a027b27ae5d49e9a68ddd203f
 SHA1: 0e13d0c15532acc9167b7d39201111974a7ce8ee
 SHA256: d6bd800924634024ad6462e62397738dc44159835f5cc8b48394e258f4f42de4
+Section: misc
+Priority: optional
+Homepage: https://keeweb.info
+Description: KeeWeb
+ Free cross-platform password manager compatible with KeePass
+
+Package: keeweb-desktop
+Version: 1.7.1-1
+Architecture: amd64
+Maintainer: Antelle <antelle.net@gmail.com>
+Installed-Size: 212728
+Depends: libappindicator1, libgconf2-4
+Filename: ./KeeWeb-1.7.1.linux.x64.deb
+Size: 75520564
+MD5sum: b8c742e6cdf3fb245fca9e494b01a8fd
+SHA1: 04ab6b80d20bf82e754965a15692cac5dc9dfb44
+SHA256: 1c386f51d3cd505d486259b00f67cdfa0d732ec8c1cd947ddbf4e901a086e3cd
+Section: misc
+Priority: optional
+Homepage: https://keeweb.info
+Description: KeeWeb
+ Free cross-platform password manager compatible with KeePass
+
+Package: keeweb-desktop
+Version: 1.7.1-1
+Architecture: i386
+Maintainer: Antelle <antelle.net@gmail.com>
+Installed-Size: 218692
+Depends: libappindicator1, libgconf2-4
+Filename: ./KeeWeb-1.7.1.linux.ia32.deb
+Size: 79158022
+MD5sum: fcadec2be7f678e597bdda19e803f6c6
+SHA1: 36ccc1341946cd11d198f33c9d25442513bfe78d
+SHA256: afd6740c15106b8c2005bb57e917f86754bb85dca3369a216dd1ad2e536320e0
 Section: misc
 Priority: optional
 Homepage: https://keeweb.info
