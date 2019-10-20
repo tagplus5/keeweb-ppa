@@ -5,7 +5,7 @@ FULLPATH=`cd "$BASEDIR"; pwd`
 
 cd $FULLPATH/ubuntu
 
-dpkg-scanpackages -m . > Packages
+dpkg-scanpackages -m . > Packages 2> /dev/null
 gzip --keep --force -9 Packages
 
 apt-ftparchive release . > Release

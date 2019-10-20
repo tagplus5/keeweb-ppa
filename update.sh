@@ -23,10 +23,9 @@ do
     rename "s/\\.$n\./.0$n./g" *.deb -f
 done
 
-ls -F *.deb | head -n -5 1> /dev/null 2> /dev/null
-# ls -F *.deb | head -n -5 | xargs rm 2> /dev/null
+ls -F *.deb | head -n -5 | xargs rm 2> /dev/null
 
-if [ "$COUNT1" != "$COUNT2" ]; then    
+if [ "$COUNT1" != "$COUNT2" ]; then
     echo 1
 else
     echo 0
