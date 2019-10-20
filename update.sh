@@ -17,8 +17,14 @@ done <<< "$LINKS"
 
 COUNT2=`ls -1 | wc -l`
 
-ls -F *x64.deb | head -n -5 | xargs rm 2> /dev/null
-ls -F *ia32.deb | head -n -5 | xargs rm 2> /dev/null
+for n in 0 1 2 3 4 5 6 7 8 9
+do
+	rename "s/\\.$n\./.0$n./g" *.deb -f
+    rename "s/\\.$n\./.0$n./g" *.deb -f
+done
+
+ls -F *.deb | head -n -5 1> /dev/null 2> /dev/null
+# ls -F *.deb | head -n -5 | xargs rm 2> /dev/null
 
 if [ "$COUNT1" != "$COUNT2" ]; then    
     echo 1
