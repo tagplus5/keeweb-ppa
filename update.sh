@@ -15,13 +15,13 @@ while read -r url; do
     wget -q -N https://github.com$url
 done <<< "$LINKS"
 
-COUNT2=`ls -1 | wc -l`
-
 for n in 0 1 2 3 4 5 6 7 8 9
 do
 	rename "s/\\.$n\./.0$n./g" *.deb -f
     rename "s/\\.$n\./.0$n./g" *.deb -f
 done
+
+COUNT2=`ls -1 | wc -l`
 
 ls -F *.deb | head -n -5 | xargs rm 2> /dev/null
 
