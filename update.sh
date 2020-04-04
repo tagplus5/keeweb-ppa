@@ -9,7 +9,7 @@ cd $FULLPATH/ubuntu
 
 COUNT1=`ls -1 | wc -l`
 
-LINKS=`wget -q --output-document - https://github.com/keeweb/keeweb/releases | grep -Eo '/.*deb' | head -n 2`
+LINKS=`wget -q --output-document - https://github.com/keeweb/keeweb/releases | grep -Eo '/.*\.deb' | head -n 2`
 
 while read -r url; do
     wget -q -N https://github.com$url
