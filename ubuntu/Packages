@@ -1,21 +1,4 @@
 Package: keeweb-desktop
-Version: 1.18.0-1
-Architecture: amd64
-Maintainer: Antelle <antelle.net@gmail.com>
-Installed-Size: 191516
-Depends: libappindicator1, libgconf-2-4, gnome-keyring, libxtst6, libx11-6, libatspi2.0-0
-Filename: ./KeeWeb-1.18.00.linux.x64.deb
-Size: 80156736
-MD5sum: 68ddcbdd7d4734b7b99c795c00f5378c
-SHA1: 1a4328ca05c6b06fd8aa6a91c75cb3f7bf782d26
-SHA256: 64d80e9b2e8acb27781594bdd5697393f2db1edec9b8405af7d27ea3910379b3
-Section: misc
-Priority: optional
-Homepage: https://keeweb.info
-Description: KeeWeb
- Free cross-platform password manager compatible with KeePass
-
-Package: keeweb-desktop
 Version: 1.18.1-1
 Architecture: amd64
 Maintainer: Antelle <antelle.net@gmail.com>
@@ -77,6 +60,23 @@ Size: 80156784
 MD5sum: e31aacada5c7a39f3707dbef6bc417d8
 SHA1: 1fbbc6c1bef794f052b8b01cab123c4eac452b54
 SHA256: 05e1a9a47ec6bb05203d1544b4e6d759211659d6acdd56645d42b90a4afc179c
+Section: misc
+Priority: optional
+Homepage: https://keeweb.info
+Description: KeeWeb
+ Free cross-platform password manager compatible with KeePass
+
+Package: keeweb-desktop
+Version: 1.18.5-1
+Architecture: amd64
+Maintainer: Antelle <antelle.net@gmail.com>
+Installed-Size: 191518
+Depends: libappindicator1, libgconf-2-4, gnome-keyring, libxtst6, libx11-6, libatspi2.0-0
+Filename: ./KeeWeb-1.18.05.linux.x64.deb
+Size: 80157188
+MD5sum: a0dc04d4adf9842bd44253a64ef5afa1
+SHA1: 857b2e72666a8357c7c39b99721509f719d2722d
+SHA256: ef1bf06916457786be73cdd990cb261059d1441a47b8a9d1c3234e8b122af039
 Section: misc
 Priority: optional
 Homepage: https://keeweb.info
